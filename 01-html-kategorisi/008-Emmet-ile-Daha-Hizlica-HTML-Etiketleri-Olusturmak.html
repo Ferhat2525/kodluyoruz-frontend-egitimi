@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Emmet Kullanımı</title>
+    </head>
+    <body>
+        <!--
+    etiket isimlerini direkt verebiliyoruz
+    + kardeş öğe
+    > içinde öğe
+    ^ yukarı çık  ve öğe oluştur.
+    * çarp -> p*3
+    lorem ???
+    . -> class
+    # -> id 
+-->
+        <!-- Yapılışı -->
+        <!-- h1+p+p+h2+p+p+p+p -->
+        <!-- Çıktısı -->
+        <!-- <h1></h1>
+        <p></p>
+        <p></p>
+        <h2></h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p> -->
+        <!-- Yapılışı -->
+        <!-- h1+p+p+h2+p+p+p+p -> h1+p*2+h2+p*4 -->
+        <!-- Çıktısı -->
+        <!-- <h1></h1>
+        <p></p>
+        <p></p>
+        <h2></h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*5 -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*3>p>h3>p -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li>
+                <p>
+                    <h3>
+                        <p></p>
+                    </h3>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <h3>
+                        <p></p>
+                    </h3>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <h3>
+                        <p></p>
+                    </h3>
+                </p>
+            </li>
+         </ul> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*3^p -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+         <p></p> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*3^p+h3 -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+         <p></p>
+         <h3></h3> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*3^p*2+h3 -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+         </ul>
+         <p></p>
+         <p></p>
+         <h3></h3> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 -- hatalı kullanım -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li>Lorem.</li>
+            <li>Sunt.</li>
+            <li>Blanditiis.</li>
+            <p>
+                Lorem ipsum dolor sit.
+                <h3>Lorem.</h3>
+            </p>
+            <p>
+                Consequatur rerum quisquam reprehenderit?
+                <h3>Adipisci?</h3>
+            </p>
+         </ul> -->
+        <!-- Yapılışı -->
+        <!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1 -- doğru kullanım -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li>Lorem.</li>
+            <li>Enim.</li>
+            <li>Culpa?</li>
+         </ul>
+         <p>Lorem ipsum dolor sit.</p>
+         <p>Magni aperiam quod magnam.</p>
+         <h3>Lorem.</h3> -->
+        <!-- Yapılışı -->
+        <!-- h3.deneme -->
+        <!-- Çıktısı -->
+        <!-- <h3 class="deneme"></h3> -->
+        <!-- Yapılışı -->
+        <!-- h3.deneme>lorem1 -->
+        <!-- Çıktısı -->
+        <!-- <h3 class="deneme">Lorem.</h3> -->
+        <!-- Yapılışı -->
+        <!-- h3#idolussun>lorem1 -->
+        <!-- Çıktısı -->
+        <!-- <h3 id="idolussun">Lorem.</h3> -->
+        <!-- Yapılışı -->
+        <!-- h3.deneme#idolussun>lorem1 -->
+        <!-- Çıktısı -->
+        <!-- <h3 class="deneme" id="idolussun">Lorem.</h3> -->
+        <!-- Yapılısı -->
+        <!-- h3.kodluyoruz.html -->
+        <!-- Çıktısı -->
+        <!-- <h3 class="kodluyoruz html"></h3> -->
+        <!-- Yapılısı -->
+        <!-- .tepki -->
+        <!-- Çıktısı -->
+        <!-- <div class="tepki"></div> -->
+        <!-- Yapılısı -->
+        <!-- ul>li.tepki -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li class="tepki"></li>
+        </ul> -->
+        <!-- Yapılısı -->
+        <!-- ul>.tepki -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li class="tepki"></li>
+        </ul> -->
+        <!-- Yapılısı -->
+        <!-- ul>.tepki*3 -->
+        <!-- Çıktısı -->
+        <!-- <ul>
+            <li class="tepki"></li>
+            <li class="tepki"></li>
+            <li class="tepki"></li>
+        </ul> -->
+        <!-- Yapılısı -->
+        <!-- Çıktısı -->
+        <!-- ul>.text-red*3 -->
+        <!-- <ul>
+            <li class="text-red"></li>
+            <li class="text-red"></li>
+            <li class="text-red"></li>
+        </ul> -->
+    </body>
+</html>
