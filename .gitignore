@@ -67,5 +67,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # İmage
-imges/
+*.imges
 images/1.jpg
+imges/hizli-ve-öfkeli-1.jpg
