@@ -67,6 +67,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # İmage
-*.images
-images/1.jpg
-images/hizli-ve-ofkeli-1.jpg
+# builds/**/images/*
+#*.ogg
+#*.mp3
+#*.mp4
+*.png
+*.jpg
+#*.psd
