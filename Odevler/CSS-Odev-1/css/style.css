@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.header .title {
+    color: #fd0000;
+    text-align: center;
+}
+
+
+.navbar,
+.menu li {
+    list-style-position: inside;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-content .title-2 {
+    color: #8a2be2;
+}
+
+.main-content .title-3 {
+    color: #cdbf41;
+}
+
+.urun-items,
+.items-2 {
+    list-style-position: inside;
+    padding: 0;
+}
+
+.resim-1,
+.resim-2,
+.resim-3,
+.resim-4,
+.resim-5,
+.resim-6,
+.resim-7,
+.resim-8 {
+    height: 200px;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.resim-1 {
+    background-image: url("/Odevler/CSS-Odev-1/image/gitar.jpg");
+}
+
+.resim-2 {
+    background-image: url("/Odevler/CSS-Odev-1/image/gitar-2.jpg");
+}
+
+.resim-3 {
+    background-image: url("/Odevler/CSS-Odev-1/image/davul.jpg");
+}
+
+.resim-4 {
+    background-image: url("/Odevler/CSS-Odev-1/image/davul-2.jpg");
+}
+
+.resim-5 {
+    background-image: url("/Odevler/CSS-Odev-1/image/keman1.jpg");
+}
+
+.resim-6 {
+    background-image: url("/Odevler/CSS-Odev-1/image/Keman2.jpg");
+}
+
+.resim-7 {
+    background-image: url("/Odevler/CSS-Odev-1/image/piyano.jpg");
+}
+
+.resim-8 {
+    background-image: url("/Odevler/CSS-Odev-1/image/piyano2.jpg");
+}
+
+.fw-bold {
+    font-weight: bold;
+}
